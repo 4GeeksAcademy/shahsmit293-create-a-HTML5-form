@@ -1,0 +1,93 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+form {
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width:600px;
+    height:100%;
+    margin-top: 100px;
+    border: 0.5px solid;
+}
+
+h1 {
+    border: 2px ridge;
+    margin: 0px;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+#error{
+    padding: 10px;
+    background-color: lightpink;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.money {
+    display: flex;
+    flex-direction: row;
+    border: 0px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.bio{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+.address{
+    display: flex;
+}
+
+#message{
+    margin:0px;
+}
+
+#cards{
+    width:200px;
+    background-color: grey;
+}
+.footer{
+    padding:5px;
+    text-align: right;
+    background-color: lightgray;
+    border: 2px ridge;
+}
+
+input[type="button"]
+{
+    background-color: grey;
+    color: white;
+}
+
+input[type="submit"]
+{
+    background-color: blue;
+    color: white;
+}
+#notes{
+    color: gray;
+    font-size: small;
+    margin: 0%;
+}
